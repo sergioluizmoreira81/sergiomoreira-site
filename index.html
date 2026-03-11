@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sergio Moreira</title>
+  <title>Sergio Moreira | Engenharia, Automação e Tecnologia</title>
+  <meta name="description" content="Portfólio profissional de Sergio Moreira. Especialista em engenharia de produto, automação, validação de hardware e soluções digitais.">
+  <meta name="keywords" content="Sergio Moreira, engenharia, automação, hardware, qualidade, tecnologia, portfólio">
   <script src="https://cdn.tailwindcss.com"></script>
   <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
@@ -28,7 +30,7 @@
       ];
 
       const highlights = [
-        { value: "10+", label: "Anos em tecnologia" },
+        { value: "20+", label: "Anos em tecnologia" },
         { value: "50+", label: "Projetos técnicos" },
         { value: "100%", label: "Foco em resultado" },
       ];
@@ -227,31 +229,18 @@
           {/* DESTAQUES */}
           <section id="destaques" className="mx-auto max-w-7xl px-6 py-8 md:px-10 md:py-16">
             <div className="rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900 to-slate-950 p-6 md:p-8">
-              <div className="grid gap-8 md:grid-cols-2 md:gap-10">
-                <div>
-                  <h2 className="text-2xl font-bold text-white md:text-3xl">Competências</h2>
-                  <p className="mt-3 text-sm text-slate-400 md:text-base">
-                    Conhecimentos e frentes de atuação que formam a base deste portfólio profissional.
-                  </p>
-                  <div className="mt-6 flex flex-wrap gap-2 md:gap-3">
-                    {skills.map((skill) => (
-                      <span key={skill}
-                        className="rounded-full border border-slate-700 bg-slate-950 px-3 py-1.5 text-xs text-slate-300 md:px-4 md:py-2 md:text-sm">
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="rounded-3xl border border-slate-800 bg-slate-950/80 p-5 md:p-6">
-                  <h3 className="text-xl font-semibold text-white md:text-2xl">Próximos blocos do site</h3>
-                  <ul className="mt-4 space-y-3 text-sm text-slate-400 md:text-base">
-                    <li>• Cases e projetos reais</li>
-                    <li>• Experiência profissional</li>
-                    <li>• Serviços e consultoria</li>
-                    <li>• Galeria visual / apresentações</li>
-                    <li>• Formulário de contato</li>
-                  </ul>
+              <div>
+                <h2 className="text-2xl font-bold text-white md:text-3xl">Competências</h2>
+                <p className="mt-3 text-sm text-slate-400 md:text-base">
+                  Conhecimentos e frentes de atuação que formam a base deste portfólio profissional.
+                </p>
+                <div className="mt-6 flex flex-wrap gap-2 md:gap-3">
+                  {skills.map((skill) => (
+                    <span key={skill}
+                      className="rounded-full border border-slate-700 bg-slate-950 px-3 py-1.5 text-xs text-slate-300 md:px-4 md:py-2 md:text-sm">
+                      {skill}
+                    </span>
+                  ))}
                 </div>
               </div>
             </div>
